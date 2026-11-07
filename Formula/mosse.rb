@@ -1,4 +1,4 @@
-# mosse CLI(MD-518):单文件二进制来自 mosse 仓库的 cli-v* Release;npm 版见 @mosse-ai/cli。
+# mosse CLI(MD-518):单文件二进制来自公开 tap release;npm 版见 @mosse-ai/cli。
 class Mosse < Formula
   desc "Mosse CLI — board, chat and knowledge from the terminal"
   homepage "https://github.com/Weavon-AI/mosse"
