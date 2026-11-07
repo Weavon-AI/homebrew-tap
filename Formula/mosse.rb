@@ -6,10 +6,10 @@ class Mosse < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Weavon-AI/mosse/releases/download/cli-v#{version}/mosse-darwin-arm64.tar.gz"
+      url "https://github.com/Weavon-AI/homebrew-tap/releases/download/v#{version}/mosse-darwin-arm64.tar.gz"
       sha256 "db7d2d7b4929bb009689bc147531a848e717b8ebdace6eba612d99333ca519a0"
     else
-      url "https://github.com/Weavon-AI/mosse/releases/download/cli-v#{version}/mosse-darwin-x64.tar.gz"
+      url "https://github.com/Weavon-AI/homebrew-tap/releases/download/v#{version}/mosse-darwin-x64.tar.gz"
       sha256 "36dff556b3d22cb71f6d04ea94b583a08defb670cb51c775b4c7923baf7beebb"
     end
   end
