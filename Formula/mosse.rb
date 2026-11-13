@@ -2,15 +2,15 @@
 class Mosse < Formula
   desc "Mosse CLI — board, chat and knowledge from the terminal"
   homepage "https://github.com/Weavon-AI/mosse"
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Weavon-AI/homebrew-tap/releases/download/v#{version}/mosse-darwin-arm64.tar.gz"
-      sha256 "db7d2d7b4929bb009689bc147531a848e717b8ebdace6eba612d99333ca519a0"
+      sha256 "a02bea52263f08d6fcff6274afff413d84ef3ee736ec45e165135112f72e31d7"
     else
       url "https://github.com/Weavon-AI/homebrew-tap/releases/download/v#{version}/mosse-darwin-x64.tar.gz"
-      sha256 "36dff556b3d22cb71f6d04ea94b583a08defb670cb51c775b4c7923baf7beebb"
+      sha256 "c6c24130f69bac28340eae1b04247cb86d71d63fcf80c1b0032d1935b2405047"
     end
   end
 
